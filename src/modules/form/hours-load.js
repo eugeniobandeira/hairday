@@ -35,6 +35,8 @@ export function hoursLoad({ date }) {
 
         hours.append(li);
     });
+
+    hoursClick();
 }
 
 function hourHeaderAdd(title) {
